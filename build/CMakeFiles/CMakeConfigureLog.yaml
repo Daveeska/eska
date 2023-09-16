@@ -1,0 +1,569 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "thirdparty/freeglut/CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "thirdparty/freeglut/CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/Eska/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "thirdparty/freeglut/CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ttr263"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ttr263"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ttr263'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_f3e46/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_f3e46.dir/build.make CMakeFiles/cmTC_f3e46.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ttr263'
+        Building C object CMakeFiles/cmTC_f3e46.dir/CMakeCCompilerABI.c.obj
+        C:/MinGW/bin/gcc.exe   -v -o CMakeFiles/cmTC_f3e46.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        gcc.exe: error: C:/Program: No such file or directory
+        gcc.exe: error: Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c\\: No such file or directory
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        Linking C executable cmTC_f3e46.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_f3e46.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_f3e46.dir/objects.a @CMakeFiles/cmTC_f3e46.dir/objects1.rsp
+        C:/MinGW/bin/ar.exe: CMakeFiles/cmTC_f3e46.dir/CMakeCCompilerABI.c.obj: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_f3e46.dir/build.make:100: cmTC_f3e46.exe] Error 1
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ttr263'
+        make: *** [Makefile:127: cmTC_f3e46/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Check for working C compiler: C:/MinGW/bin/gcc.exe"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-kfs4xu"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-kfs4xu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-kfs4xu'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_cac3b/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_cac3b.dir/build.make CMakeFiles/cmTC_cac3b.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-kfs4xu'
+        Building C object CMakeFiles/cmTC_cac3b.dir/testCCompiler.c.obj
+        C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_cac3b.dir/testCCompiler.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-kfs4xu/testCCompiler.c
+        Linking C executable cmTC_cac3b.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cac3b.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_cac3b.dir/objects.a @CMakeFiles/cmTC_cac3b.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_cac3b.dir/objects.a -Wl,--no-whole-archive -o cmTC_cac3b.exe -Wl,--out-implib,libcmTC_cac3b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_cac3b.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-kfs4xu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:376 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-sacqgj"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-sacqgj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-sacqgj'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_5a2b4/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_5a2b4.dir/build.make CMakeFiles/cmTC_5a2b4.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-sacqgj'
+        Building C object CMakeFiles/cmTC_5a2b4.dir/HAVE_SYS_TYPES_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_5a2b4.dir/HAVE_SYS_TYPES_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-sacqgj/HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_5a2b4.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_5a2b4.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_5a2b4.dir/objects.a @CMakeFiles/cmTC_5a2b4.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_5a2b4.dir/objects.a -Wl,--no-whole-archive -o cmTC_5a2b4.exe -Wl,--out-implib,libcmTC_5a2b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5a2b4.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-sacqgj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:377 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-gqbu0l"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-gqbu0l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-gqbu0l'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_84517/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_84517.dir/build.make CMakeFiles/cmTC_84517.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-gqbu0l'
+        Building C object CMakeFiles/cmTC_84517.dir/HAVE_UNISTD_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_84517.dir/HAVE_UNISTD_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-gqbu0l/HAVE_UNISTD_H.c
+        Linking C executable cmTC_84517.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_84517.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_84517.dir/objects.a @CMakeFiles/cmTC_84517.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_84517.dir/objects.a -Wl,--no-whole-archive -o cmTC_84517.exe -Wl,--out-implib,libcmTC_84517.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_84517.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-gqbu0l'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:378 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pk8rn7"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pk8rn7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pk8rn7'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_eee79/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_eee79.dir/build.make CMakeFiles/cmTC_eee79.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pk8rn7'
+        Building C object CMakeFiles/cmTC_eee79.dir/HAVE_SYS_TIME_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_eee79.dir/HAVE_SYS_TIME_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pk8rn7/HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_eee79.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_eee79.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_eee79.dir/objects.a @CMakeFiles/cmTC_eee79.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_eee79.dir/objects.a -Wl,--no-whole-archive -o cmTC_eee79.exe -Wl,--out-implib,libcmTC_eee79.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_eee79.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pk8rn7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:379 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ph3ivf"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ph3ivf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ph3ivf'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_5ab62/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_5ab62.dir/build.make CMakeFiles/cmTC_5ab62.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ph3ivf'
+        Building C object CMakeFiles/cmTC_5ab62.dir/HAVE_STDBOOL_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_5ab62.dir/HAVE_STDBOOL_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ph3ivf/HAVE_STDBOOL_H.c
+        Linking C executable cmTC_5ab62.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_5ab62.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_5ab62.dir/objects.a @CMakeFiles/cmTC_5ab62.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_5ab62.dir/objects.a -Wl,--no-whole-archive -o cmTC_5ab62.exe -Wl,--out-implib,libcmTC_5ab62.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5ab62.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-ph3ivf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:380 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-39zexu"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-39zexu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-39zexu'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_236d4/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_236d4.dir/build.make CMakeFiles/cmTC_236d4.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-39zexu'
+        Building C object CMakeFiles/cmTC_236d4.dir/HAVE_SYS_PARAM_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_236d4.dir/HAVE_SYS_PARAM_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-39zexu/HAVE_SYS_PARAM_H.c
+        Linking C executable cmTC_236d4.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_236d4.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_236d4.dir/objects.a @CMakeFiles/cmTC_236d4.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_236d4.dir/objects.a -Wl,--no-whole-archive -o cmTC_236d4.exe -Wl,--out-implib,libcmTC_236d4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_236d4.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-39zexu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:381 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_9a3ba/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_9a3ba.dir/build.make CMakeFiles/cmTC_9a3ba.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r'
+        Building C object CMakeFiles/cmTC_9a3ba.dir/HAVE_SYS_IOCTL_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_9a3ba.dir/HAVE_SYS_IOCTL_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r/HAVE_SYS_IOCTL_H.c
+        E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r/HAVE_SYS_IOCTL_H.c:2:23: fatal error: sys/ioctl.h: No such file or directory
+         #include <sys/ioctl.h>
+                               ^
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_9a3ba.dir/build.make:78: CMakeFiles/cmTC_9a3ba.dir/HAVE_SYS_IOCTL_H.c.obj] Error 1
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-pwho5r'
+        make: *** [Makefile:127: cmTC_9a3ba/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:382 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-au9hj4"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-au9hj4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-au9hj4'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_f2889/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_f2889.dir/build.make CMakeFiles/cmTC_f2889.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-au9hj4'
+        Building C object CMakeFiles/cmTC_f2889.dir/HAVE_FCNTL_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_f2889.dir/HAVE_FCNTL_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-au9hj4/HAVE_FCNTL_H.c
+        Linking C executable cmTC_f2889.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_f2889.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_f2889.dir/objects.a @CMakeFiles/cmTC_f2889.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_f2889.dir/objects.a -Wl,--no-whole-archive -o cmTC_f2889.exe -Wl,--out-implib,libcmTC_f2889.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f2889.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-au9hj4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:383 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_72d98/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_72d98.dir/build.make CMakeFiles/cmTC_72d98.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi'
+        Building C object CMakeFiles/cmTC_72d98.dir/HAVE_USBHID_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_72d98.dir/HAVE_USBHID_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi/HAVE_USBHID_H.c
+        E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi/HAVE_USBHID_H.c:2:20: fatal error: usbhid.h: No such file or directory
+         #include <usbhid.h>
+                            ^
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_72d98.dir/build.make:78: CMakeFiles/cmTC_72d98.dir/HAVE_USBHID_H.c.obj] Error 1
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-nflbxi'
+        make: *** [Makefile:127: cmTC_72d98/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:384 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-k503px"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-k503px"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-k503px'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_dc13c/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_dc13c.dir/build.make CMakeFiles/cmTC_dc13c.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-k503px'
+        Building C object CMakeFiles/cmTC_dc13c.dir/CheckFunctionExists.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_dc13c.dir/CheckFunctionExists.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-k503px/CheckFunctionExists.c
+        Linking C executable cmTC_dc13c.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_dc13c.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_dc13c.dir/objects.a @CMakeFiles/cmTC_dc13c.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -Wl,--whole-archive CMakeFiles/cmTC_dc13c.dir/objects.a -Wl,--no-whole-archive -o cmTC_dc13c.exe -Wl,--out-implib,libcmTC_dc13c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_dc13c.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-k503px'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:385 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-d6md5k"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-d6md5k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-d6md5k'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_dc614/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_dc614.dir/build.make CMakeFiles/cmTC_dc614.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-d6md5k'
+        Building C object CMakeFiles/cmTC_dc614.dir/CheckFunctionExists.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles/cmTC_dc614.dir/CheckFunctionExists.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-d6md5k/CheckFunctionExists.c
+        Linking C executable cmTC_dc614.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_dc614.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_dc614.dir/objects.a @CMakeFiles/cmTC_dc614.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -Wl,--whole-archive CMakeFiles/cmTC_dc614.dir/objects.a -Wl,--no-whole-archive -o cmTC_dc614.exe -Wl,--out-implib,libcmTC_dc614.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_dc614.dir/linkLibs.rsp
+        CMakeFiles/cmTC_dc614.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `XParseGeometry'
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_dc614.dir/build.make:102: cmTC_dc614.exe] Error 1
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-d6md5k'
+        make: *** [Makefile:127: cmTC_dc614/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:393 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-5dbdhc"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-5dbdhc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-5dbdhc'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_3cc57/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_3cc57.dir/build.make CMakeFiles/cmTC_3cc57.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-5dbdhc'
+        Building C object CMakeFiles/cmTC_3cc57.dir/HAVE_STDINT_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_3cc57.dir/HAVE_STDINT_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-5dbdhc/HAVE_STDINT_H.c
+        Linking C executable cmTC_3cc57.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_3cc57.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_3cc57.dir/objects.a @CMakeFiles/cmTC_3cc57.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_3cc57.dir/objects.a -Wl,--no-whole-archive -o cmTC_3cc57.exe -Wl,--out-implib,libcmTC_3cc57.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3cc57.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-5dbdhc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/freeglut/CMakeLists.txt:394 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-r5s4gs"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-r5s4gs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-r5s4gs'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_6f082/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_6f082.dir/build.make CMakeFiles/cmTC_6f082.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-r5s4gs'
+        Building C object CMakeFiles/cmTC_6f082.dir/HAVE_INTTYPES_H.c.obj
+        C:/MinGW/bin/gcc.exe   -Wall -pedantic  -o CMakeFiles/cmTC_6f082.dir/HAVE_INTTYPES_H.c.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-r5s4gs/HAVE_INTTYPES_H.c
+        Linking C executable cmTC_6f082.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_6f082.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_6f082.dir/objects.a @CMakeFiles/cmTC_6f082.dir/objects1.rsp
+        C:/MinGW/bin/gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles/cmTC_6f082.dir/objects.a -Wl,--no-whole-archive -o cmTC_6f082.exe -Wl,--out-implib,libcmTC_6f082.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_6f082.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-r5s4gs'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/MinGW/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/Eska/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-wdlybz"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-wdlybz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-wdlybz'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_4d794/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_4d794.dir/build.make CMakeFiles/cmTC_4d794.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-wdlybz'
+        Building CXX object CMakeFiles/cmTC_4d794.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/MinGW/bin/c++.exe   -v -o CMakeFiles/cmTC_4d794.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        c++.exe: error: C:/Program: No such file or directory
+        c++.exe: error: Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp\\: No such file or directory
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        Linking CXX executable cmTC_4d794.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_4d794.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_4d794.dir/objects.a @CMakeFiles/cmTC_4d794.dir/objects1.rsp
+        C:/MinGW/bin/ar.exe: CMakeFiles/cmTC_4d794.dir/CMakeCXXCompilerABI.cpp.obj: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_4d794.dir/build.make:100: cmTC_4d794.exe] Error 1
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-wdlybz'
+        make: *** [Makefile:127: cmTC_4d794/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/MinGW/bin/c++.exe"
+    directories:
+      source: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-m6ia6i"
+      binary: "E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-m6ia6i"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-m6ia6i'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_aeee1/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_aeee1.dir/build.make CMakeFiles/cmTC_aeee1.dir/build
+        make[1]: Entering directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-m6ia6i'
+        Building CXX object CMakeFiles/cmTC_aeee1.dir/testCXXCompiler.cxx.obj
+        C:/MinGW/bin/c++.exe    -o CMakeFiles/cmTC_aeee1.dir/testCXXCompiler.cxx.obj -c E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-m6ia6i/testCXXCompiler.cxx
+        Linking CXX executable cmTC_aeee1.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_aeee1.dir/objects.a
+        C:/MinGW/bin/ar.exe qc CMakeFiles/cmTC_aeee1.dir/objects.a @CMakeFiles/cmTC_aeee1.dir/objects1.rsp
+        C:/MinGW/bin/c++.exe -Wl,--whole-archive CMakeFiles/cmTC_aeee1.dir/objects.a -Wl,--no-whole-archive -o cmTC_aeee1.exe -Wl,--out-implib,libcmTC_aeee1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_aeee1.dir/linkLibs.rsp
+        make[1]: Leaving directory 'E:/Eska/build/CMakeFiles/CMakeScratch/TryCompile-m6ia6i'
+        
+      exitCode: 0
+...
